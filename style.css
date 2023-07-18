@@ -1,0 +1,159 @@
+* {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    align-items: center;
+    gap: 24px;
+}
+
+.headlines {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 50px 100px;
+}
+
+.big-image {
+    display: flex;
+    width: 400px;
+    flex: 1 1 0;
+}
+
+.button1 {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+}
+
+.images-n-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-images, .subtext {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.info-images {
+    border: solid;
+    border-width: 2px;
+    border-color: #3882F6;
+}
+
+.subtext {
+    color: grey;
+    text-align: center;
+    
+}
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+}
+
+.quote-text {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    justify-content: center;
+    font-style: italic;
+}
+
+.thor {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 40px 80px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+h3.action, .sing-up-p {
+    margin: 0px;
+}
+.button2 {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 24px;
+    font-weight: bold;
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937;
+    color: white;
+    padding: 30px 0;
+}
