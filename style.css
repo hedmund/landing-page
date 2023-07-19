@@ -12,7 +12,7 @@ body {
 
 .header {
     display: flex;
-    background-color: #1F2937;
+    background-color: #2A1A19;
     color: white;
     align-items: center;
     justify-content: space-between;
@@ -29,7 +29,7 @@ ul {
 
 .headlines {
     display: flex;
-    background-color: #1F2937;
+    background-color: #2A1A19;
     color: white;
     align-items: center;
     justify-content: space-between;
@@ -44,7 +44,7 @@ ul {
 }
 
 .button1 {
-    background-color: #3882F6;
+    background-color: #4F3832;
     border: none;
     color: white;
     padding: 8px 24px;
@@ -56,48 +56,54 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 0 100px;
+    margin: 20px 0;
 }
 
 .images-n-text {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 60px;
+    gap: 80px;
 }
 
 h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
 }
 .info-images, .subtext {
     display: flex;
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
     justify-content: center;
 }
 
 .info-images {
+    border-radius: 10px;
     border: solid;
+    max-height: 250px;
+    width: 250px;
+    object-fit: cover;
     border-width: 2px;
-    border-color: #3882F6;
+    border-color: #1F2937;
 }
 
 .subtext {
     color: grey;
     text-align: center;
+    padding-top: 10px;
     
 }
 .img-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 250px;
 }
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: #F1E7D4;
     display: flex;
     flex-direction: column;
     padding: 50px 150px;
@@ -109,20 +115,24 @@ h2 {
     color: #1F2937;
     justify-content: center;
     font-style: italic;
+    padding: 6px;
 }
 
-.thor {
+.ai-quote {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     font-weight: bold;
 }
 
+.sign-up {
+    padding: 0 100px;
+}
 .sub-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #3882F6;
+    background-color: #4F3832;
     margin: 40px 80px;
     padding: 50px;
     border-radius: 10px;
@@ -139,7 +149,7 @@ h3.action, .sing-up-p {
     margin: 0px;
 }
 .button2 {
-    background-color: #3882F6;
+    background-color: #4F3832;
     color: white;
     padding: 8px 24px;
     font-weight: bold;
@@ -153,7 +163,7 @@ h3.action, .sing-up-p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#1F2937;
+    background-color:#2A1A19;
     color: white;
     padding: 30px 0;
 }
