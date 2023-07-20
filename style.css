@@ -17,6 +17,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 100px;
+    flex: 1;
 }
 
 ul {
@@ -31,19 +32,22 @@ ul {
     display: flex;
     flex-direction: column;
     width: 500px;
+    flex: 1;
 }
 .headlines {
     display: flex;
     background-color: #2A1A19;
     color: white;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     gap: 50px;
     padding: 50px 100px;
 }
 
 .big-image {
     width: 500px;
+    flex: 1;
+
 }
 
 .button1 {
@@ -80,6 +84,7 @@ h2 {
     padding: 0px;
     margin: 0px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .info-images, .subtext {
     display: flex;
@@ -140,7 +145,7 @@ h2 {
 
 .sub-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #4F3832;
     margin: 40px 100px;
@@ -160,6 +165,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     color: white;
+    flex: 1;
 }
 
 h3.action, .sing-up-p {
